@@ -21,7 +21,7 @@
 | 플랫폼                      | 내 프로필                                                |
 | :----------------------- | :--------------------------------------------------- |
 | **백준 (BAEKJOON)**        | <https://www.acmicpc.net/user/chiho3898>             |
-| **프로그래머스 (Programmers)** | <https://programmers.co.kr/users/challenge-activity> |
+| **프로그래머스 (Programmers)** | <https://programmers.co.kr> |
 
 ## 💡 목표
 
