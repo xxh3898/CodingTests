@@ -3,6 +3,7 @@
 
 ### Java ###
 # Compiled class file
+*.java
 *.class
 
 # Log file
