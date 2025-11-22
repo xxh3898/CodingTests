@@ -5,6 +5,7 @@
 # Compiled class file
 *.java
 *.class
+/Run
 
 # Log file
 *.log
