@@ -5,7 +5,7 @@
 
 이 리포지토리는 **코딩 테스트** 문제 풀이 기록을 관리하기 위해 만들어졌습니다.
 
-주로 백준(BAEKJOON)과 프로그래머스(Programmers)의 문제들을 풀이하고 있습니다.
+주로 백준(BAEKJOON)의 문제들을 풀이하고 있습니다.
 
 ## 🛠️ 사용 언어 (Main Language)
 
@@ -14,14 +14,13 @@
 ## 🗂️ 디렉토리 구조
 
 -   **/BAEKJOON**: [백준 온라인 저지](https://www.acmicpc.net) 문제 풀이
--   **/programmers**: [프로그래머스](https://programmers.co.kr/learn/challenges) 문제 풀이
 
 ## 🚀 문제 풀이 플랫폼 및 프로필
 
-| 플랫폼                      | 내 프로필                                                |
-| :----------------------- | :--------------------------------------------------- |
-| **백준 (BAEKJOON)**        | <https://www.acmicpc.net/user/chiho3898>             |
-| **프로그래머스 (Programmers)** | <https://programmers.co.kr> |
+| 플랫폼               | 내 프로필                                    |
+| :---------------- | :--------------------------------------- |
+| **백준 (BAEKJOON)** | <https://www.acmicpc.net/user/chiho3898> |
+
 
 ## 💡 목표
 
