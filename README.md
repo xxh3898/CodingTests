@@ -1,27 +1,44 @@
 # CodingTests
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=chiho3898)](https://solved.ac/profile/chiho3898)
 
-## 📚 소개
+## 📚 소개 (Introduction)
 
-이 리포지토리는 **코딩 테스트** 문제 풀이 기록을 관리하기 위해 만들어졌습니다.
+이 리포지토리는 **코딩 테스트** 알고리즘 학습 과정을 기록하는 공간입니다.
+**백준허브(BaekjoonHub)** 를 활용하여 소스 코드를 자동 관리하고, 별도의 학습 노트를 통해 문제 해결 과정을 복기하고 있습니다.
 
-주로 백준(BAEKJOON)의 문제들을 풀이하고 있습니다.
+## 🛠️ 사용 언어 (Language)
 
-## 🛠️ 사용 언어 (Main Language)
+- **Java**
 
-주요 풀이 언어는 **Java**입니다.
+## 🗂️ 디렉토리 구조 (Directory Structure)
 
-## 🗂️ 디렉토리 구조
+이 리포지토리는 크게 두 가지 목적으로 구성되어 있습니다.
 
--   **/BAEKJOON**: [백준 온라인 저지](https://www.acmicpc.net) 문제 풀이
+### 1. 📖 학습 노트 (`/Study-Notes`)
 
-## 🚀 문제 풀이 플랫폼 및 프로필
+알고리즘 **유형별(Category)** 로 문제를 분류하여 정리한 심층 학습 노트입니다.
+직접 만든 템플릿을 사용하여 다음 내용을 중점적으로 기록합니다.
+- 문제의 핵심 조건 및 이해
+- 문제 해결 로직 (Logic)
+- **오답 노트 & 회고 (Mistakes & Review)**
 
-| 플랫폼               | 내 프로필                                    |
-| :---------------- | :--------------------------------------- |
-| **백준 (BAEKJOON)** | <https://www.acmicpc.net/user/chiho3898> |
+### 2. 💻 소스 코드 아카이브 (`/백준`)
+백준허브(BaekjoonHub)가 자동으로 업로드한 **난이도별(Tier)** 소스 코드 저장소입니다.
+- 실행 가능한 `Java` 코드 원본
+- 문제 설명이 포함된 `README`
 
+## 🚀 문제 풀이 프로세스 (Workflow)
 
-## 💡 목표
+1. 백준(BOJ)에서 문제 풀이 및 제출 (성공 ✅)
+2. **BaekjoonHub**가 자동으로 `/백준` 폴더에 소스 코드 업로드
+3. `/Study-Notes` 폴더에 학습 노트 작성
+4. 학습 노트에서 해당 문제의 소스 코드로 **Link 연결**
 
-이 리포지토리는 꾸준한 문제 풀이를 통해 알고리즘 역량을 강화하는 것을 목표로 합니다.
+## 🔗 프로필 (Profile)
+
+| 플랫폼 | 내 프로필 |
+| :--- | :--- |
+| **백준 (BOJ)** | <https://www.acmicpc.net/user/chiho3898> |
+
+---
+*This repository is automatically synced with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).*
