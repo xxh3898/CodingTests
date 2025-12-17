@@ -1,44 +1,59 @@
-# CodingTests
+# CodingTests & DB Study
+
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=chiho3898)](https://solved.ac/profile/chiho3898)
+<img src="https://img.shields.io/badge/Main%20Language-Java-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/Database-SQL-orange?style=for-the-badge&logo=mysql&logoColor=white">
 
 ## 📚 소개 (Introduction)
 
-이 리포지토리는 **코딩 테스트** 알고리즘 학습 과정을 기록하는 공간입니다.
-**백준허브(BaekjoonHub)** 를 활용하여 소스 코드를 자동 관리하고, 별도의 학습 노트를 통해 문제 해결 과정을 복기하고 있습니다.
+이 리포지토리는 **백엔드 개발자 및 DBA**를 목표로 하는 코딩 테스트 학습 기록 공간입니다.
+**백준허브(BaekjoonHub)** 를 활용하여 **알고리즘(Java)** 과 **SQL 쿼리** 풀이 기록을 깃허브에 **자동으로 저장 및 관리**하고 있습니다.
 
-## 🛠️ 사용 언어 (Language)
+## 🎯 학습 전략 (Study Roadmap)
 
-- **Java**
+### 1. Algorithm (Java)
+- **Platform:** 백준(BOJ)
+- **Focus:** 자료구조와 알고리즘의 기초 구현력 배양.
+- **Future Plan:** 충분한 기초 체력을 다진 후, 프로그래머스 고득점 Kit(Java)로 확장 예정.
+
+### 2. Database (SQL)
+- **Platform:** 프로그래머스 (SQL 고득점 Kit)
+- **Focus:** `JOIN`, `GROUP BY`, `Subquery` 등 실무 중심의 데이터 추출 능력 마스터.
+- **Goal:** 복잡한 통계 쿼리 작성 및 쿼리 최적화 역량 확보.
 
 ## 🗂️ 디렉토리 구조 (Directory Structure)
 
-이 리포지토리는 크게 두 가지 목적으로 구성되어 있습니다.
+이 리포지토리는 확장 프로그램에 의해 자동으로 분류됩니다.
 
-### 1. 📖 학습 노트 (`/Study-Notes`)
+### 1. ☕ Java Algorithm (`/백준`)
+백준에서 푼 알고리즘 문제의 소스 코드가 난이도별로 자동 저장됩니다.
+- 문제 설명이 포함된 `README.md`
+- 실행 가능한 `Java` 소스 코드
 
-알고리즘 **유형별(Category)** 로 문제를 분류하여 정리한 심층 학습 노트입니다.
-직접 만든 템플릿을 사용하여 다음 내용을 중점적으로 기록합니다.
-- 문제의 핵심 조건 및 이해
-- 문제 해결 로직 (Logic)
-- **오답 노트 & 회고 (Mistakes & Review)**
+### 2. 🐬 SQL Query (`/프로그래머스`)
+프로그래머스에서 푼 SQL 문제의 정답 쿼리가 자동 저장됩니다.
+- 문제 설명 (`README.md`)
+- 정답 쿼리 (`.sql`)
 
-### 2. 💻 소스 코드 아카이브 (`/백준`)
-백준허브(BaekjoonHub)가 자동으로 업로드한 **난이도별(Tier)** 소스 코드 저장소입니다.
-- 실행 가능한 `Java` 코드 원본
-- 문제 설명이 포함된 `README`
+### 3. 📖 학습 노트 (`/Study-Notes`)
+문제 해결 과정에서 배운 핵심 로직, 실수한 점(오답 노트), 쿼리 튜닝 과정 등을 직접 정리하는 공간입니다.
 
 ## 🚀 문제 풀이 프로세스 (Workflow)
 
-1. 백준(BOJ)에서 문제 풀이 및 제출 (성공 ✅)
-2. **BaekjoonHub**가 자동으로 `/백준` 폴더에 소스 코드 업로드
-3. `/Study-Notes` 폴더에 학습 노트 작성
-4. 학습 노트에서 해당 문제의 소스 코드로 **Link 연결**
+**[Automation]**
+1. **백준(BOJ)** 또는 **프로그래머스**에서 문제 풀이 및 제출 (성공 ✅)
+2. **BaekjoonHub** 확장 프로그램이 자동으로 해당 플랫폼 폴더에 코드 커밋
+
+**[Manual Review]**
+3. `/Study-Notes` 폴더에 핵심 개념 및 회고 작성
+4. (SQL 심화) 실행 계획(Explain) 분석이나 쿼리 개선 경험이 있다면 주석으로 남기기
 
 ## 🔗 프로필 (Profile)
 
 | 플랫폼 | 내 프로필 |
 | :--- | :--- |
-| **백준 (BOJ)** | <https://www.acmicpc.net/user/chiho3898> |
+| **백준 (BOJ)** | [chiho3898](https://www.acmicpc.net/user/chiho3898) |
+| **프로그래머스** | [Link](https://school.programmers.co.kr/) |
 
 ---
 *This repository is automatically synced with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).*
