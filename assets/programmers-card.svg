@@ -1,4 +1,4 @@
-<svg width="720" height="320" viewBox="0 0 720 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="720" height="430" viewBox="0 0 720 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Programmers progress card</title>
   <desc id="desc">Repository-driven Programmers solving stats for xxh3898/CodingTests</desc>
   <style>
@@ -11,12 +11,12 @@
     .latest { fill: #dbeafe; font: 600 13px 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; }
     .small { fill: #94a3b8; font: 600 12px 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; }
   </style>
-  <rect width="720" height="320" rx="18" fill="#0f172a"/>
-  <rect x="1" y="1" width="718" height="318" rx="17" stroke="#1e293b"/>
+  <rect width="720" height="430" rx="18" fill="#0f172a"/>
+  <rect x="1" y="1" width="718" height="428" rx="17" stroke="#1e293b"/>
 
   <text x="38" y="52" class="title">Programmers Progress</text>
   <text x="38" y="76" class="subtitle">Generated from xxh3898/CodingTests repository files</text>
-  <text x="38" y="99" class="small">Updated 2026.04.30 02:00 KST</text>
+  <text x="38" y="99" class="small">Updated 2026.04.30 02:12 KST</text>
 
   <g transform="translate(38 126)">
     <text x="0" y="0" class="metric-label">SOLVED</text>
@@ -31,47 +31,48 @@
     <text x="0" y="29" class="latest">Java 5 · SQL 1</text>
   </g>
 
+  <text x="38" y="216" class="metric-label">LEVEL BREAKDOWN</text>
   
-        <g transform="translate(38 182)">
+        <g transform="translate(38 236)">
           <text x="0" y="0" class="muted">Lv. 0</text>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#60a5fa"/>
-          <text x="0" y="42" class="level-count">4</text>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#60a5fa"/>
+          <text x="0" y="50" class="level-count">4</text>
         </g>
-        <g transform="translate(146 182)">
+        <g transform="translate(146 236)">
           <text x="0" y="0" class="muted">Lv. 1</text>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="12" width="37" height="8" rx="4" fill="#34d399"/>
-          <text x="0" y="42" class="level-count">2</text>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
+          <rect x="0" y="14" width="37" height="8" rx="4" fill="#34d399"/>
+          <text x="0" y="50" class="level-count">2</text>
         </g>
-        <g transform="translate(254 182)">
+        <g transform="translate(254 236)">
           <text x="0" y="0" class="muted">Lv. 2</text>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="12" width="0" height="8" rx="4" fill="#fbbf24"/>
-          <text x="0" y="42" class="level-count">0</text>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
+          <rect x="0" y="14" width="0" height="8" rx="4" fill="#fbbf24"/>
+          <text x="0" y="50" class="level-count">0</text>
         </g>
-        <g transform="translate(362 182)">
+        <g transform="translate(362 236)">
           <text x="0" y="0" class="muted">Lv. 3</text>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="12" width="0" height="8" rx="4" fill="#fb7185"/>
-          <text x="0" y="42" class="level-count">0</text>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
+          <rect x="0" y="14" width="0" height="8" rx="4" fill="#fb7185"/>
+          <text x="0" y="50" class="level-count">0</text>
         </g>
-        <g transform="translate(470 182)">
+        <g transform="translate(470 236)">
           <text x="0" y="0" class="muted">Lv. 4</text>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="12" width="0" height="8" rx="4" fill="#c084fc"/>
-          <text x="0" y="42" class="level-count">0</text>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
+          <rect x="0" y="14" width="0" height="8" rx="4" fill="#c084fc"/>
+          <text x="0" y="50" class="level-count">0</text>
         </g>
-        <g transform="translate(578 182)">
+        <g transform="translate(578 236)">
           <text x="0" y="0" class="muted">Lv. 5</text>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="12" width="0" height="8" rx="4" fill="#38bdf8"/>
-          <text x="0" y="42" class="level-count">0</text>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
+          <rect x="0" y="14" width="0" height="8" rx="4" fill="#38bdf8"/>
+          <text x="0" y="50" class="level-count">0</text>
         </g>
 
-  <text x="38" y="216" class="metric-label">LATEST SOLVED</text>
-  <text x="38" y="238" class="latest">Lv. 1 · 숫자 짝꿍 · Java</text>
-<text x="38" y="258" class="latest">Lv. 0 · 대소문자 바꿔서 출력하기 · Java</text>
-<text x="38" y="278" class="latest">Lv. 0 · 문자열 반복해서 출력하기 · Java</text>
-<text x="38" y="298" class="latest">Lv. 0 · a와 b 출력하기 · Java</text>
+  <text x="38" y="326" class="metric-label">LATEST SOLVED</text>
+  <text x="38" y="350" class="latest">Lv. 1 · 숫자 짝꿍 · Java</text>
+<text x="38" y="370" class="latest">Lv. 0 · 대소문자 바꿔서 출력하기 · Java</text>
+<text x="38" y="390" class="latest">Lv. 0 · 문자열 반복해서 출력하기 · Java</text>
+<text x="38" y="410" class="latest">Lv. 0 · a와 b 출력하기 · Java</text>
 </svg>

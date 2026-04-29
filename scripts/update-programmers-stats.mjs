@@ -208,11 +208,13 @@ export async function writeProgrammersOutputs(rootDir, stats) {
 
 function renderCardSvg(stats) {
   const width = 720;
-  const height = 320;
+  const height = 430;
   const levels = ensureKnownLevels(stats.levels);
   const maxLevelCount = Math.max(1, ...Object.values(levels));
   const languageEntries = Object.entries(stats.languages).slice(0, 4);
   const latestEntries = stats.latest.slice(0, 4);
+  const levelGroupY = 236;
+  const latestStartY = 350;
 
   const levelRows = Object.entries(levels)
     .map(([level, count], index) => {
@@ -220,11 +222,11 @@ function renderCardSvg(stats) {
       const barWidth = Math.round((count / maxLevelCount) * 74);
 
       return `
-        <g transform="translate(${x} 182)">
+        <g transform="translate(${x} ${levelGroupY})">
           <text x="0" y="0" class="muted">${xmlEscape(formatLevelLabel(level))}</text>
-          <rect x="0" y="12" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="12" width="${barWidth}" height="8" rx="4" fill="${levelColor(index)}"/>
-          <text x="0" y="42" class="level-count">${count}</text>
+          <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
+          <rect x="0" y="14" width="${barWidth}" height="8" rx="4" fill="${levelColor(index)}"/>
+          <text x="0" y="50" class="level-count">${count}</text>
         </g>`;
     })
     .join('');
@@ -237,14 +239,14 @@ function renderCardSvg(stats) {
     latestEntries.length > 0
       ? latestEntries
           .map((problem, index) => {
-            const y = 238 + index * 20;
+            const y = latestStartY + index * 20;
             const language = problem.languages[0] ? ` · ${problem.languages[0]}` : '';
             const text = `${formatLevelLabel(problem.level)} · ${truncate(problem.title, 28)}${language}`;
 
             return `<text x="38" y="${y}" class="latest">${xmlEscape(text)}</text>`;
           })
           .join('\n')
-      : '<text x="38" y="238" class="latest">No solved problems yet</text>';
+      : `<text x="38" y="${latestStartY}" class="latest">No solved problems yet</text>`;
 
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Programmers progress card</title>
@@ -279,9 +281,10 @@ function renderCardSvg(stats) {
     <text x="0" y="29" class="latest">${xmlEscape(truncate(languageText, 32))}</text>
   </g>
 
+  <text x="38" y="216" class="metric-label">LEVEL BREAKDOWN</text>
   ${levelRows}
 
-  <text x="38" y="216" class="metric-label">LATEST SOLVED</text>
+  <text x="38" y="326" class="metric-label">LATEST SOLVED</text>
   ${latestRows}
 </svg>
 `;
@@ -436,7 +439,12 @@ function formatLevelsBadgeMessage(levels) {
     return 'no solved problems';
   }
 
-  return entries.map(([level, count]) => `${formatLevelLabel(level)} ${count}`).join(' | ');
+  return entries.map(([level, count]) => `${formatCompactLevelLabel(level)}: ${count}`).join(' · ');
+}
+
+function formatCompactLevelLabel(level) {
+  const match = level.match(/^lv([0-9]+)$/u);
+  return match ? `Lv${match[1]}` : 'Unknown';
 }
 
 async function isDirectory(filePath) {

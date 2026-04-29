@@ -59,12 +59,17 @@ test('should_writeProgrammersOutputs_when_statsAreCollected', async () => {
   const solvedBadge = JSON.parse(
     await fs.readFile(path.join(rootDir, 'badges/programmers-solved.json')),
   );
+  const levelsBadge = JSON.parse(
+    await fs.readFile(path.join(rootDir, 'badges/programmers-levels.json')),
+  );
   const card = await fs.readFile(path.join(rootDir, 'assets/programmers-card.svg'), 'utf8');
 
   assert.equal(statsJson.totalSolved, 1);
   assert.equal(solvedBadge.schemaVersion, 1);
   assert.equal(solvedBadge.message, '1 solved');
+  assert.equal(levelsBadge.message, 'Lv1: 1');
   assert.match(card, /Programmers Progress/);
+  assert.match(card, /LEVEL BREAKDOWN/);
   assert.match(card, /CUSTOM SCORE/);
 });
 
