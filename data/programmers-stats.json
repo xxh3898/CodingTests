@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-04-29T16:59:50.241Z",
+  "generatedAtKst": "2026.04.30 01:59 KST",
+  "source": {
+    "repository": "xxh3898/CodingTests",
+    "roots": [
+      "프로그래머스"
+    ],
+    "basePath": "프로그래머스/<level>/<problem>"
+  },
+  "totalSolved": 6,
+  "customScore": 10,
+  "scoreWeights": {
+    "lv0": 1,
+    "lv1": 3,
+    "lv2": 7,
+    "lv3": 15,
+    "lv4": 31,
+    "lv5": 63
+  },
+  "levels": {
+    "lv0": 4,
+    "lv1": 2
+  },
+  "languages": {
+    "Java": 5,
+    "SQL": 1
+  },
+  "latest": [
+    {
+      "id": "131128",
+      "title": "숫자 짝꿍",
+      "level": "lv1",
+      "levelLabel": "Lv. 1",
+      "category": "코딩테스트 연습 > 연습문제",
+      "submittedAt": "2026년 04월 30일 01:41:32",
+      "submittedAtIso": "2026-04-30T01:41:32+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/131128",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "숫자 짝꿍.java"
+      ],
+      "relativePath": "프로그래머스/lv1/131128. 숫자 짝꿍"
+    },
+    {
+      "id": "181949",
+      "title": "대소문자 바꿔서 출력하기",
+      "level": "lv0",
+      "levelLabel": "Lv. 0",
+      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
+      "submittedAt": "2026년 04월 30일 01:41:31",
+      "submittedAtIso": "2026-04-30T01:41:31+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181949",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "대소문자 바꿔서 출력하기.java"
+      ],
+      "relativePath": "프로그래머스/lv0/181949. 대소문자 바꿔서 출력하기"
+    },
+    {
+      "id": "181950",
+      "title": "문자열 반복해서 출력하기",
+      "level": "lv0",
+      "levelLabel": "Lv. 0",
+      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
+      "submittedAt": "2026년 04월 30일 01:41:31",
+      "submittedAtIso": "2026-04-30T01:41:31+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181950",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "문자열 반복해서 출력하기.java"
+      ],
+      "relativePath": "프로그래머스/lv0/181950. 문자열 반복해서 출력하기"
+    },
+    {
+      "id": "181951",
+      "title": "a와 b 출력하기",
+      "level": "lv0",
+      "levelLabel": "Lv. 0",
+      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
+      "submittedAt": "2026년 04월 30일 01:41:31",
+      "submittedAtIso": "2026-04-30T01:41:31+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181951",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "a와 b 출력하기.java"
+      ],
+      "relativePath": "프로그래머스/lv0/181951. a와 b 출력하기"
+    },
+    {
+      "id": "181952",
+      "title": "문자열 출력하기",
+      "level": "lv0",
+      "levelLabel": "Lv. 0",
+      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
+      "submittedAt": "2026년 04월 30일 01:41:31",
+      "submittedAtIso": "2026-04-30T01:41:31+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181952",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "문자열 출력하기.java"
+      ],
+      "relativePath": "프로그래머스/lv0/181952. 문자열 출력하기"
+    }
+  ]
+}

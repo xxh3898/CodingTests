@@ -1,0 +1,43 @@
+name: Update Programmers Stats
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '프로그래머스/**'
+      - 'Programmers/**'
+      - 'scripts/update-programmers-stats.mjs'
+      - 'scripts/update-programmers-stats.test.mjs'
+      - '.github/workflows/update-programmers-stats.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-programmers-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run stats generator tests
+        run: node --test scripts/update-programmers-stats.test.mjs
+
+      - name: Generate Programmers stats
+        run: node scripts/update-programmers-stats.mjs
+
+      - name: Commit generated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/programmers-stats.json assets/programmers-card.svg badges/programmers-*.json
+          git diff --cached --quiet || git commit -m "chore: 프로그래머스 통계 카드 갱신"
+          git push

@@ -4,17 +4,32 @@
 <img src="https://img.shields.io/badge/Main%20Language-Java-007396?style=for-the-badge&logo=java&logoColor=white">
 <img src="https://img.shields.io/badge/Database-SQL-orange?style=for-the-badge&logo=mysql&logoColor=white">
 
+<p align="center">
+  <img src="./assets/programmers-card.svg" alt="Programmers Progress">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xxh3898/CodingTests/main/badges/programmers-solved.json" alt="Programmers solved">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xxh3898/CodingTests/main/badges/programmers-score.json" alt="Programmers custom score">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xxh3898/CodingTests/main/badges/programmers-levels.json" alt="Programmers level distribution">
+</p>
+
 ## 📚 소개 (Introduction)
 
 이 리포지토리는 **백엔드 개발자 및 DBA**를 목표로 하는 코딩 테스트 학습 기록 공간입니다.
 **백준허브(BaekjoonHub)** 를 활용하여 **알고리즘(Java)** 과 **SQL 쿼리** 풀이 기록을 깃허브에 **자동으로 저장 및 관리**하고 있습니다.
 
+## 📊 프로그래머스 통계 (Programmers Stats)
+
+프로그래머스 카드는 `프로그래머스/**`에 저장된 풀이 파일을 기준으로 자동 생성됩니다.
+표시되는 점수는 프로그래머스 공식 점수가 아니라 레벨별 가중치로 계산한 저장소 기반 custom score입니다.
+
 ## 🎯 학습 전략 (Study Roadmap)
 
 ### 1. Algorithm (Java)
-- **Platform:** 백준(BOJ)
+- **Platform:** 백준(BOJ), 프로그래머스
 - **Focus:** 자료구조와 알고리즘의 기초 구현력 배양.
-- **Future Plan:** 충분한 기초 체력을 다진 후, 프로그래머스 고득점 Kit(Java)로 확장 예정.
+- **Plan:** 백준 기초 풀이를 유지하면서 프로그래머스 고득점 Kit(Java) 풀이를 본격적으로 확장.
 
 ### 2. Database (SQL)
 - **Platform:** 프로그래머스 (SQL 고득점 Kit)
@@ -30,10 +45,10 @@
 - 문제 설명이 포함된 `README.md`
 - 실행 가능한 `Java` 소스 코드
 
-### 2. 🐬 SQL Query (`/프로그래머스`)
-프로그래머스에서 푼 SQL 문제의 정답 쿼리가 자동 저장됩니다.
+### 2. 🐬 Programmers (`/프로그래머스`)
+프로그래머스에서 푼 Java/SQL 문제의 풀이가 레벨별로 자동 저장됩니다.
 - 문제 설명 (`README.md`)
-- 정답 쿼리 (`.sql`)
+- 정답 코드 또는 쿼리 (`.java`, `.sql`)
 
 ### 3. 📖 학습 노트 (`/Study-Notes`)
 문제 해결 과정에서 배운 핵심 로직, 실수한 점(오답 노트), 쿼리 튜닝 과정 등을 직접 정리하는 공간입니다.
@@ -43,10 +58,11 @@
 **[Automation]**
 1. **백준(BOJ)** 또는 **프로그래머스**에서 문제 풀이 및 제출 (성공 ✅)
 2. **BaekjoonHub** 확장 프로그램이 자동으로 해당 플랫폼 폴더에 코드 커밋
+3. **GitHub Actions**가 `프로그래머스/**` 폴더를 스캔해 통계 JSON, SVG 카드, Shields endpoint 뱃지를 갱신
 
 **[Manual Review]**
-3. `/Study-Notes` 폴더에 핵심 개념 및 회고 작성
-4. (SQL 심화) 실행 계획(Explain) 분석이나 쿼리 개선 경험이 있다면 주석으로 남기기
+4. `/Study-Notes` 폴더에 핵심 개념 및 회고 작성
+5. (SQL 심화) 실행 계획(Explain) 분석이나 쿼리 개선 경험이 있다면 주석으로 남기기
 
 ## 🔗 프로필 (Profile)
 
