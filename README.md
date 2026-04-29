@@ -1,4 +1,4 @@
-# CodingTests & DB Study
+# Coding Test Study
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=chiho3898)](https://solved.ac/profile/chiho3898)
 <img src="https://img.shields.io/badge/Main%20Language-Java-007396?style=for-the-badge&logo=java&logoColor=white">
@@ -16,8 +16,8 @@
 
 ## 📚 소개 (Introduction)
 
-이 리포지토리는 **백엔드 개발자 및 DBA**를 목표로 하는 코딩 테스트 학습 기록 공간입니다.
-**백준허브(BaekjoonHub)** 를 활용하여 **알고리즘(Java)** 과 **SQL 쿼리** 풀이 기록을 깃허브에 **자동으로 저장 및 관리**하고 있습니다.
+이 리포지토리는 **백엔드 개발자**를 목표로 하는 코딩 테스트 학습 기록 공간입니다.
+**백준허브(BaekjoonHub)** 를 활용해 백준과 프로그래머스 풀이를 깃허브에 자동으로 저장하고, Java 알고리즘 풀이와 SQL 문제 풀이를 함께 관리합니다.
 
 ## 📊 프로그래머스 통계 (Programmers Stats)
 
@@ -26,24 +26,27 @@
 
 ## 🎯 학습 전략 (Study Roadmap)
 
-### 1. Algorithm (Java)
-- **Platform:** 백준(BOJ), 프로그래머스
-- **Focus:** 자료구조와 알고리즘의 기초 구현력 배양.
-- **Plan:** 백준 기초 풀이를 유지하면서 프로그래머스 고득점 Kit(Java) 풀이를 본격적으로 확장.
+### 1. Problem Solving
+- **Platforms:** 백준(BOJ), 프로그래머스
+- **Languages:** Java, SQL
+- **Focus:** 자료구조와 알고리즘 구현력, SQL 문제 해결력을 함께 강화.
 
-### 2. Database (SQL)
-- **Platform:** 프로그래머스 (SQL 고득점 Kit)
-- **Focus:** `JOIN`, `GROUP BY`, `Subquery` 등 실무 중심의 데이터 추출 능력 마스터.
-- **Goal:** 복잡한 통계 쿼리 작성 및 쿼리 최적화 역량 확보.
+### 2. Review Notes
+- **Focus:** 풀이 과정에서 배운 핵심 개념, 실수한 지점, 다시 볼 만한 접근법을 정리.
+- **Goal:** 문제 풀이 기록을 단순 제출 이력이 아니라 재사용 가능한 학습 자산으로 관리.
+
+### 3. Progress Automation
+- **Focus:** 백준허브 자동 커밋과 GitHub Actions 기반 프로그래머스 통계 카드 갱신.
+- **Goal:** 풀이 흐름과 진행 현황을 README에서 바로 확인.
 
 ## 🗂️ 디렉토리 구조 (Directory Structure)
 
 이 리포지토리는 확장 프로그램에 의해 자동으로 분류됩니다.
 
-### 1. ☕ Java Algorithm (`/백준`)
-백준에서 푼 알고리즘 문제의 소스 코드가 난이도별로 자동 저장됩니다.
+### 1. ☕ Baekjoon (`/백준`)
+백준에서 푼 문제의 풀이가 난이도별로 자동 저장됩니다.
 - 문제 설명이 포함된 `README.md`
-- 실행 가능한 `Java` 소스 코드
+- 풀이 코드
 
 ### 2. 🐬 Programmers (`/프로그래머스`)
 프로그래머스에서 푼 Java/SQL 문제의 풀이가 레벨별로 자동 저장됩니다.
