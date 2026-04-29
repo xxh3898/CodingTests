@@ -1,22 +1,14 @@
-# [level 1] 숫자 짝꿍 - 131128 
+# [lv1] 숫자 짝꿍 - 131128 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131128?language=java) 
-
-### 성능 요약
-
-메모리: 130 MB, 시간: 59.74 ms
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131128) 
 
 ### 구분
 
 코딩테스트 연습 > 연습문제
 
-### 채점결과
-
-정확성: 100.0<br/>합계: 100.0 / 100.0
-
 ### 제출 일자
 
-2026년 04월 30일 01:27:55
+2026년 04월 30일 01:41:32
 
 ### 문제 설명
 
