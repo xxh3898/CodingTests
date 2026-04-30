@@ -16,19 +16,19 @@
 
   <text x="38" y="52" class="title">Programmers Progress</text>
   <text x="38" y="76" class="subtitle">Generated from xxh3898/CodingTests repository files</text>
-  <text x="38" y="99" class="small">Updated 2026.04.30 16:10 KST</text>
+  <text x="38" y="99" class="small">Updated 2026.04.30 17:27 KST</text>
 
   <g transform="translate(38 126)">
     <text x="0" y="0" class="metric-label">SOLVED</text>
-    <text x="0" y="42" class="metric-value">16</text>
+    <text x="0" y="42" class="metric-value">17</text>
   </g>
   <g transform="translate(220 126)">
     <text x="0" y="0" class="metric-label">CUSTOM SCORE</text>
-    <text x="0" y="42" class="metric-value">22</text>
+    <text x="0" y="42" class="metric-value">29</text>
   </g>
   <g transform="translate(438 126)">
     <text x="0" y="0" class="metric-label">LANGUAGES</text>
-    <text x="0" y="29" class="latest">Java 7 · SQL 1</text>
+    <text x="0" y="29" class="latest">Java 8 · SQL 1</text>
   </g>
 
   <text x="38" y="216" class="metric-label">LEVEL BREAKDOWN</text>
@@ -48,8 +48,8 @@
         <g transform="translate(254 236)">
           <text x="0" y="0" class="muted">Lv. 2</text>
           <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="14" width="0" height="8" rx="4" fill="#fbbf24"/>
-          <text x="0" y="50" class="level-count">0</text>
+          <rect x="0" y="14" width="6" height="8" rx="4" fill="#fbbf24"/>
+          <text x="0" y="50" class="level-count">1</text>
         </g>
         <g transform="translate(362 236)">
           <text x="0" y="0" class="muted">Lv. 3</text>
@@ -71,8 +71,8 @@
         </g>
 
   <text x="38" y="326" class="metric-label">LATEST SOLVED</text>
-  <text x="38" y="350" class="latest">Lv. 1 · 과일 장수 · Java</text>
-<text x="38" y="370" class="latest">Lv. 0 · 피자 나눠 먹기 (1) · Java</text>
-<text x="38" y="390" class="latest">Lv. 0 · 양꼬치</text>
-<text x="38" y="410" class="latest">Lv. 0 · 문자열 뒤집기</text>
+  <text x="38" y="350" class="latest">Lv. 2 · 올바른 괄호 · Java</text>
+<text x="38" y="370" class="latest">Lv. 1 · 과일 장수 · Java</text>
+<text x="38" y="390" class="latest">Lv. 0 · 피자 나눠 먹기 (1) · Java</text>
+<text x="38" y="410" class="latest">Lv. 0 · 양꼬치</text>
 </svg>

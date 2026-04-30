@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-30T07:10:06.947Z",
-  "generatedAtKst": "2026.04.30 16:10 KST",
+  "generatedAt": "2026-04-30T08:27:14.286Z",
+  "generatedAtKst": "2026.04.30 17:27 KST",
   "source": {
     "repository": "xxh3898/CodingTests",
     "roots": [
@@ -8,8 +8,8 @@
     ],
     "basePath": "프로그래머스/<level>/<problem>"
   },
-  "totalSolved": 16,
-  "customScore": 22,
+  "totalSolved": 17,
+  "customScore": 29,
   "scoreWeights": {
     "lv0": 1,
     "lv1": 3,
@@ -20,13 +20,31 @@
   },
   "levels": {
     "lv0": 13,
-    "lv1": 3
+    "lv1": 3,
+    "lv2": 1
   },
   "languages": {
-    "Java": 7,
+    "Java": 8,
     "SQL": 1
   },
   "latest": [
+    {
+      "id": "12909",
+      "title": "올바른 괄호",
+      "level": "lv2",
+      "levelLabel": "Lv. 2",
+      "category": "코딩테스트 연습 > 스택／큐",
+      "submittedAt": "2026년 04월 30일 17:26:47",
+      "submittedAtIso": "2026-04-30T17:26:47+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12909",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "올바른 괄호.java"
+      ],
+      "relativePath": "프로그래머스/lv2/12909. 올바른 괄호"
+    },
     {
       "id": "135808",
       "title": "과일 장수",
@@ -86,19 +104,6 @@
       "languages": [],
       "solutionFiles": [],
       "relativePath": "프로그래머스/lv0/181905. 문자열 뒤집기"
-    },
-    {
-      "id": "120821",
-      "title": "배열 뒤집기",
-      "level": "lv0",
-      "levelLabel": "Lv. 0",
-      "category": "코딩테스트 연습 > 코딩테스트 입문",
-      "submittedAt": "2026년 04월 30일 12:30:42",
-      "submittedAtIso": "2026-04-30T12:30:42+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120821",
-      "languages": [],
-      "solutionFiles": [],
-      "relativePath": "프로그래머스/lv0/120821. 배열 뒤집기"
     }
   ]
 }
