@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-30T08:48:32.845Z",
-  "generatedAtKst": "2026.04.30 17:48 KST",
+  "generatedAt": "2026-04-30T08:50:07.049Z",
+  "generatedAtKst": "2026.04.30 17:50 KST",
   "source": {
     "repository": "xxh3898/CodingTests",
     "roots": [
@@ -8,8 +8,8 @@
     ],
     "basePath": "프로그래머스/<level>/<problem>"
   },
-  "totalSolved": 17,
-  "customScore": 29,
+  "totalSolved": 18,
+  "customScore": 32,
   "scoreWeights": {
     "lv0": 1,
     "lv1": 3,
@@ -20,7 +20,7 @@
   },
   "levels": {
     "lv0": 13,
-    "lv1": 3,
+    "lv1": 4,
     "lv2": 1
   },
   "languages": {
@@ -28,6 +28,19 @@
     "SQL": 1
   },
   "latest": [
+    {
+      "id": "12977",
+      "title": "소수 만들기",
+      "level": "lv1",
+      "levelLabel": "Lv. 1",
+      "category": "코딩테스트 연습 > Summer／Winter Coding（～2018）",
+      "submittedAt": "2026년 04월 30일 17:48:21",
+      "submittedAtIso": "2026-04-30T17:48:21+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/12977",
+      "languages": [],
+      "solutionFiles": [],
+      "relativePath": "프로그래머스/lv1/12977. 소수 만들기"
+    },
     {
       "id": "12909",
       "title": "올바른 괄호",
@@ -91,19 +104,6 @@
       "languages": [],
       "solutionFiles": [],
       "relativePath": "프로그래머스/lv0/120830. 양꼬치"
-    },
-    {
-      "id": "181905",
-      "title": "문자열 뒤집기",
-      "level": "lv0",
-      "levelLabel": "Lv. 0",
-      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
-      "submittedAt": "2026년 04월 30일 14:45:36",
-      "submittedAtIso": "2026-04-30T14:45:36+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181905",
-      "languages": [],
-      "solutionFiles": [],
-      "relativePath": "프로그래머스/lv0/181905. 문자열 뒤집기"
     }
   ]
 }
