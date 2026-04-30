@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-30T06:00:44.647Z",
-  "generatedAtKst": "2026.04.30 15:00 KST",
+  "generatedAt": "2026-04-30T06:02:47.388Z",
+  "generatedAtKst": "2026.04.30 15:02 KST",
   "source": {
     "repository": "xxh3898/CodingTests",
     "roots": [
@@ -8,8 +8,8 @@
     ],
     "basePath": "프로그래머스/<level>/<problem>"
   },
-  "totalSolved": 7,
-  "customScore": 11,
+  "totalSolved": 15,
+  "customScore": 19,
   "scoreWeights": {
     "lv0": 1,
     "lv1": 3,
@@ -19,7 +19,7 @@
     "lv5": 63
   },
   "levels": {
-    "lv0": 5,
+    "lv0": 13,
     "lv1": 2
   },
   "languages": {
@@ -45,72 +45,56 @@
       "relativePath": "프로그래머스/lv0/120814. 피자 나눠 먹기 （1）"
     },
     {
-      "id": "131128",
-      "title": "숫자 짝꿍",
-      "level": "lv1",
-      "levelLabel": "Lv. 1",
-      "category": "코딩테스트 연습 > 연습문제",
-      "submittedAt": "2026년 04월 30일 01:41:32",
-      "submittedAtIso": "2026-04-30T01:41:32+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/131128",
-      "languages": [
-        "Java"
-      ],
-      "solutionFiles": [
-        "숫자 짝꿍.java"
-      ],
-      "relativePath": "프로그래머스/lv1/131128. 숫자 짝꿍"
+      "id": "120830",
+      "title": "양꼬치",
+      "level": "lv0",
+      "levelLabel": "Lv. 0",
+      "category": "코딩테스트 연습 > 코딩테스트 입문",
+      "submittedAt": "2026년 04월 30일 14:49:18",
+      "submittedAtIso": "2026-04-30T14:49:18+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120830",
+      "languages": [],
+      "solutionFiles": [],
+      "relativePath": "프로그래머스/lv0/120830. 양꼬치"
     },
     {
-      "id": "181949",
-      "title": "대소문자 바꿔서 출력하기",
+      "id": "181905",
+      "title": "문자열 뒤집기",
       "level": "lv0",
       "levelLabel": "Lv. 0",
       "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
-      "submittedAt": "2026년 04월 30일 01:41:31",
-      "submittedAtIso": "2026-04-30T01:41:31+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181949",
-      "languages": [
-        "Java"
-      ],
-      "solutionFiles": [
-        "대소문자 바꿔서 출력하기.java"
-      ],
-      "relativePath": "프로그래머스/lv0/181949. 대소문자 바꿔서 출력하기"
+      "submittedAt": "2026년 04월 30일 14:45:36",
+      "submittedAtIso": "2026-04-30T14:45:36+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181905",
+      "languages": [],
+      "solutionFiles": [],
+      "relativePath": "프로그래머스/lv0/181905. 문자열 뒤집기"
     },
     {
-      "id": "181950",
-      "title": "문자열 반복해서 출력하기",
+      "id": "120821",
+      "title": "배열 뒤집기",
       "level": "lv0",
       "levelLabel": "Lv. 0",
-      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
-      "submittedAt": "2026년 04월 30일 01:41:31",
-      "submittedAtIso": "2026-04-30T01:41:31+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181950",
-      "languages": [
-        "Java"
-      ],
-      "solutionFiles": [
-        "문자열 반복해서 출력하기.java"
-      ],
-      "relativePath": "프로그래머스/lv0/181950. 문자열 반복해서 출력하기"
+      "category": "코딩테스트 연습 > 코딩테스트 입문",
+      "submittedAt": "2026년 04월 30일 12:30:42",
+      "submittedAtIso": "2026-04-30T12:30:42+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120821",
+      "languages": [],
+      "solutionFiles": [],
+      "relativePath": "프로그래머스/lv0/120821. 배열 뒤집기"
     },
     {
-      "id": "181951",
-      "title": "a와 b 출력하기",
+      "id": "120831",
+      "title": "짝수의 합",
       "level": "lv0",
       "levelLabel": "Lv. 0",
-      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
-      "submittedAt": "2026년 04월 30일 01:41:31",
-      "submittedAtIso": "2026-04-30T01:41:31+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181951",
-      "languages": [
-        "Java"
-      ],
-      "solutionFiles": [
-        "a와 b 출력하기.java"
-      ],
-      "relativePath": "프로그래머스/lv0/181951. a와 b 출력하기"
+      "category": "코딩테스트 연습 > 코딩테스트 입문",
+      "submittedAt": "2026년 04월 30일 12:24:33",
+      "submittedAtIso": "2026-04-30T12:24:33+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120831",
+      "languages": [],
+      "solutionFiles": [],
+      "relativePath": "프로그래머스/lv0/120831. 짝수의 합"
     }
   ]
 }

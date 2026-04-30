@@ -16,15 +16,15 @@
 
   <text x="38" y="52" class="title">Programmers Progress</text>
   <text x="38" y="76" class="subtitle">Generated from xxh3898/CodingTests repository files</text>
-  <text x="38" y="99" class="small">Updated 2026.04.30 15:00 KST</text>
+  <text x="38" y="99" class="small">Updated 2026.04.30 15:02 KST</text>
 
   <g transform="translate(38 126)">
     <text x="0" y="0" class="metric-label">SOLVED</text>
-    <text x="0" y="42" class="metric-value">7</text>
+    <text x="0" y="42" class="metric-value">15</text>
   </g>
   <g transform="translate(220 126)">
     <text x="0" y="0" class="metric-label">CUSTOM SCORE</text>
-    <text x="0" y="42" class="metric-value">11</text>
+    <text x="0" y="42" class="metric-value">19</text>
   </g>
   <g transform="translate(438 126)">
     <text x="0" y="0" class="metric-label">LANGUAGES</text>
@@ -37,12 +37,12 @@
           <text x="0" y="0" class="muted">Lv. 0</text>
           <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
           <rect x="0" y="14" width="74" height="8" rx="4" fill="#60a5fa"/>
-          <text x="0" y="50" class="level-count">5</text>
+          <text x="0" y="50" class="level-count">13</text>
         </g>
         <g transform="translate(146 236)">
           <text x="0" y="0" class="muted">Lv. 1</text>
           <rect x="0" y="14" width="74" height="8" rx="4" fill="#243044"/>
-          <rect x="0" y="14" width="30" height="8" rx="4" fill="#34d399"/>
+          <rect x="0" y="14" width="11" height="8" rx="4" fill="#34d399"/>
           <text x="0" y="50" class="level-count">2</text>
         </g>
         <g transform="translate(254 236)">
@@ -72,7 +72,7 @@
 
   <text x="38" y="326" class="metric-label">LATEST SOLVED</text>
   <text x="38" y="350" class="latest">Lv. 0 · 피자 나눠 먹기 (1) · Java</text>
-<text x="38" y="370" class="latest">Lv. 1 · 숫자 짝꿍 · Java</text>
-<text x="38" y="390" class="latest">Lv. 0 · 대소문자 바꿔서 출력하기 · Java</text>
-<text x="38" y="410" class="latest">Lv. 0 · 문자열 반복해서 출력하기 · Java</text>
+<text x="38" y="370" class="latest">Lv. 0 · 양꼬치</text>
+<text x="38" y="390" class="latest">Lv. 0 · 문자열 뒤집기</text>
+<text x="38" y="410" class="latest">Lv. 0 · 배열 뒤집기</text>
 </svg>
