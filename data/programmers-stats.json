@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-30T06:02:47.388Z",
-  "generatedAtKst": "2026.04.30 15:02 KST",
+  "generatedAt": "2026-04-30T07:10:06.947Z",
+  "generatedAtKst": "2026.04.30 16:10 KST",
   "source": {
     "repository": "xxh3898/CodingTests",
     "roots": [
@@ -8,8 +8,8 @@
     ],
     "basePath": "프로그래머스/<level>/<problem>"
   },
-  "totalSolved": 15,
-  "customScore": 19,
+  "totalSolved": 16,
+  "customScore": 22,
   "scoreWeights": {
     "lv0": 1,
     "lv1": 3,
@@ -20,13 +20,30 @@
   },
   "levels": {
     "lv0": 13,
-    "lv1": 2
+    "lv1": 3
   },
   "languages": {
-    "Java": 6,
+    "Java": 7,
     "SQL": 1
   },
   "latest": [
+    {
+      "id": "135808",
+      "title": "과일 장수",
+      "level": "lv1",
+      "levelLabel": "Lv. 1",
+      "category": "코딩테스트 연습 > 연습문제",
+      "submittedAt": "2026년 04월 30일 16:09:50",
+      "submittedAtIso": "2026-04-30T16:09:50+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/135808",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "과일 장수.java"
+      ],
+      "relativePath": "프로그래머스/lv1/135808. 과일 장수"
+    },
     {
       "id": "120814",
       "title": "피자 나눠 먹기 (1)",
@@ -82,19 +99,6 @@
       "languages": [],
       "solutionFiles": [],
       "relativePath": "프로그래머스/lv0/120821. 배열 뒤집기"
-    },
-    {
-      "id": "120831",
-      "title": "짝수의 합",
-      "level": "lv0",
-      "levelLabel": "Lv. 0",
-      "category": "코딩테스트 연습 > 코딩테스트 입문",
-      "submittedAt": "2026년 04월 30일 12:24:33",
-      "submittedAtIso": "2026-04-30T12:24:33+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120831",
-      "languages": [],
-      "solutionFiles": [],
-      "relativePath": "프로그래머스/lv0/120831. 짝수의 합"
     }
   ]
 }
