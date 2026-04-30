@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-30T05:49:41.705Z",
-  "generatedAtKst": "2026.04.30 14:49 KST",
+  "generatedAt": "2026-04-30T06:00:44.647Z",
+  "generatedAtKst": "2026.04.30 15:00 KST",
   "source": {
     "repository": "xxh3898/CodingTests",
     "roots": [
@@ -8,8 +8,8 @@
     ],
     "basePath": "프로그래머스/<level>/<problem>"
   },
-  "totalSolved": 6,
-  "customScore": 10,
+  "totalSolved": 7,
+  "customScore": 11,
   "scoreWeights": {
     "lv0": 1,
     "lv1": 3,
@@ -19,14 +19,31 @@
     "lv5": 63
   },
   "levels": {
-    "lv0": 4,
+    "lv0": 5,
     "lv1": 2
   },
   "languages": {
-    "Java": 5,
+    "Java": 6,
     "SQL": 1
   },
   "latest": [
+    {
+      "id": "120814",
+      "title": "피자 나눠 먹기 (1)",
+      "level": "lv0",
+      "levelLabel": "Lv. 0",
+      "category": "코딩테스트 연습 > 코딩테스트 입문",
+      "submittedAt": "2026년 04월 30일 15:00:27",
+      "submittedAtIso": "2026-04-30T15:00:27+09:00",
+      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/120814",
+      "languages": [
+        "Java"
+      ],
+      "solutionFiles": [
+        "피자 나눠 먹기 （1）.java"
+      ],
+      "relativePath": "프로그래머스/lv0/120814. 피자 나눠 먹기 （1）"
+    },
     {
       "id": "131128",
       "title": "숫자 짝꿍",
@@ -94,23 +111,6 @@
         "a와 b 출력하기.java"
       ],
       "relativePath": "프로그래머스/lv0/181951. a와 b 출력하기"
-    },
-    {
-      "id": "181952",
-      "title": "문자열 출력하기",
-      "level": "lv0",
-      "levelLabel": "Lv. 0",
-      "category": "코딩테스트 연습 > 코딩 기초 트레이닝",
-      "submittedAt": "2026년 04월 30일 01:41:31",
-      "submittedAtIso": "2026-04-30T01:41:31+09:00",
-      "url": "https://school.programmers.co.kr/learn/courses/30/lessons/181952",
-      "languages": [
-        "Java"
-      ],
-      "solutionFiles": [
-        "문자열 출력하기.java"
-      ],
-      "relativePath": "프로그래머스/lv0/181952. 문자열 출력하기"
     }
   ]
 }
